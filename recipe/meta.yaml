@@ -1,4 +1,4 @@
-{% set version = "2.0.0.5" %}
+{% set version = "2.0.0.6" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/hdf5lib_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/hdf5lib/hdf5lib_{{ version }}.tar.gz
-  sha256: 596621e4d4e520f18ed2b3b1dd08fe7e2a3632c2e0179f99cf9758feb730f849
+  sha256: 7783cae6bac62625954c034e69449e51bb9dfbf4c413b4074eb0d4fe0daf898a
 
 build:
   number: 0
